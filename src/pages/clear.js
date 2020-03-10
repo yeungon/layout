@@ -146,10 +146,10 @@ function Clear() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/float">
+          <Link className="nav start" to="/layout/float">
             Bài trước
           </Link>
-          <Link className="nav start" to="/clearfix">
+          <Link className="nav start" to="/layout/clearfix">
             Bài sau
           </Link>
         </div>

@@ -99,10 +99,10 @@ function Column() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/inline-block-layout">
+          <Link className="nav start" to="/layout/inline-block-layout">
             Bài trước
           </Link>
-          <Link className="nav start" to="/flexbox">
+          <Link className="nav start" to="/layout/flexbox">
             Bài sau
           </Link>
         </div>

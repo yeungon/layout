@@ -330,10 +330,10 @@ function FlexBox() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/column">
+          <Link className="nav start" to="/layout/column">
             Bài trước
           </Link>
-          <Link className="nav start" to="/frameworks">
+          <Link className="nav start" to="/layout/frameworks">
             Bài sau
           </Link>
         </div>

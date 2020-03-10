@@ -143,10 +143,10 @@ function InlineBlockLayout() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/inline-block">
+          <Link className="nav start" to="/layout/inline-block">
             Bài trước
           </Link>
-          <Link className="nav start" to="/column">
+          <Link className="nav start" to="/layout/column">
             Bài sau
           </Link>
         </div>

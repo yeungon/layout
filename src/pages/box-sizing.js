@@ -166,10 +166,10 @@ function BoxSizing() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/box-model">
+          <Link className="nav start" to="/layout/box-model">
             Bài trước
           </Link>
-          <Link className="nav start" to="/position">
+          <Link className="nav start" to="/layout/position">
             Bài sau
           </Link>
         </div>

@@ -199,10 +199,10 @@ function PositionExample() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/position">
+          <Link className="nav start" to="/layout/position">
             Bài trước
           </Link>
-          <Link className="nav start" to="/float">
+          <Link className="nav start" to="/layout/float">
             Bài sau
           </Link>
         </div>

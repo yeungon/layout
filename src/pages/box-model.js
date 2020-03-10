@@ -97,10 +97,10 @@ function BoxModel() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/max-width">
+          <Link className="nav start" to="/layout/max-width">
             Bài trước
           </Link>
-          <Link className="nav start" to="/box-sizing">
+          <Link className="nav start" to="/layout/box-sizing">
             Bài sau
           </Link>
         </div>

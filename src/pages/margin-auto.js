@@ -62,10 +62,10 @@ function Margin() {
           </div>
         </div>
         <div className="nav-wrapper">
-          <Link className="nav start" to="/display">
+          <Link className="nav start" to="/layout/display">
             Bài trước
           </Link>
-          <Link className="nav start" to="/max-width">
+          <Link className="nav start" to="/layout/max-width">
             Bài sau
           </Link>
         </div>

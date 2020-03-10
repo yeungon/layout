@@ -28,10 +28,10 @@ function noLayout() {
             important <code>display</code> property.
           </p>
           <div className="nav-wrapper">
-            <Link className="nav start" to="/">
+            <Link className="nav start" to="/layout">
               Bài trước
             </Link>
-            <Link className="nav start" to="/display">
+            <Link className="nav start" to="/layout/display">
               Bài sau
             </Link>
           </div>          

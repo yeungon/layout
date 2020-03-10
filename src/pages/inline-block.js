@@ -147,10 +147,10 @@ function InlineBlock() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/media-queries">
+          <Link className="nav start" to="/layout/media-queries">
             Bài trước
           </Link>
-          <Link className="nav start" to="/inline-block-layout">
+          <Link className="nav start" to="/layout/inline-block-layout">
             Bài sau
           </Link>
         </div>

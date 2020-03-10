@@ -7,16 +7,16 @@ function Header() {
   return (
     <>
       <div id="logo">
-        <Link className="home-link" to="/">
-          <img src="/images/logo.png" />
+        <Link className="home-link" to="/layout/">
+          <img src="/layout/images/logo.png" />
           <span>Học dựng giao diện với CSS</span>
         </Link>
       </div>
       <div id="menu">        
-        <Link className="home-link" to="/">          
+        <Link className="home-link" to="/layout/">          
           Home
         </Link>        
-        <Link className="home-link" to="/toc">          
+        <Link className="home-link" to="/layout/toc">          
         Table of Contents
         </Link>
       </div>

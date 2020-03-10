@@ -29,7 +29,7 @@ function Index() {
             </p>
           </div>
           <div className="nav-wrapper">
-            <Link className="nav start" to="/nolayout">
+            <Link className="nav start" to="/layout/nolayout">
               Bắt đầu học
             </Link>
           </div>

@@ -272,10 +272,10 @@ function Position() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/box-sizing">
+          <Link className="nav start" to="/layout/box-sizing">
             Bài trước
           </Link>
-          <Link className="nav start" to="/position-example">
+          <Link className="nav start" to="/layout/position-example">
             Bài sau
           </Link>
         </div>

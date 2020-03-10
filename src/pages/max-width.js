@@ -59,10 +59,10 @@ function MaxWith() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/margin-auto">
+          <Link className="nav start" to="/layout/margin-auto">
             Bài trước
           </Link>
-          <Link className="nav start" to="/box-model">
+          <Link className="nav start" to="/layout/box-model">
             Bài sau
           </Link>
         </div>

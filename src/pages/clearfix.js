@@ -115,10 +115,10 @@ function ClearFix() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/clear">
+          <Link className="nav start" to="/layout/clear">
             Bài trước
           </Link>
-          <Link className="nav start" to="/float-layout">
+          <Link className="nav start" to="/layout/float-layout">
             Bài sau
           </Link>
         </div>

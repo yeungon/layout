@@ -154,10 +154,10 @@ function Percent() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/float-layout">
+          <Link className="nav start" to="/layout/float-layout">
             Bài trước
           </Link>
-          <Link className="nav start" to="/media-queries">
+          <Link className="nav start" to="/layout/media-queries">
             Bài sau
           </Link>
         </div>

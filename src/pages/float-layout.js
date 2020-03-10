@@ -112,10 +112,10 @@ function FloatLayout() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/clearfix">
+          <Link className="nav start" to="/layout/clearfix">
             Bài trước
           </Link>
-          <Link className="nav start" to="/percent">
+          <Link className="nav start" to="/layout/percent">
             Bài sau
           </Link>
         </div>

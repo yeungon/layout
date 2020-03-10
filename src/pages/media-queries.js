@@ -166,10 +166,10 @@ function MediaQueries() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/percent">
+          <Link className="nav start" to="/layout/percent">
             Bài trước
           </Link>
-          <Link className="nav start" to="/inline-block">
+          <Link className="nav start" to="/layout/inline-block">
             Bài sau
           </Link>
         </div>

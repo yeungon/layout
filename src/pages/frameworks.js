@@ -31,34 +31,34 @@ function Frameworks() {
           />
           <div id="logos">
             <a href="http://www.blueprintcss.org/">
-              <img src="/images/blueprint.jpg" alt="blueprint" />
+              <img src="/layout/images/blueprint.jpg" alt="blueprint" />
             </a>
             <a href="http://www.unsemantic.com">
-              <img src="/images/unsemantic.png" alt="unsemantic" />
+              <img src="/layout/images/unsemantic.png" alt="unsemantic" />
             </a>
             <a href="http://bluetrip.org/">
-              <img src="/images/bluetrip.jpg" alt="bluetrip" />
+              <img src="/layout/images/bluetrip.jpg" alt="bluetrip" />
             </a>
             <a href="http://twitter.github.com/bootstrap/">
-              <img src="/images/bootstrap.jpg" alt="bootstrap" />
+              <img src="/layout/images/bootstrap.jpg" alt="bootstrap" />
             </a>
             <a href="http://susy.oddbird.net/">
-              <img src="/images/susy.jpg" alt="susy" />
+              <img src="/layout/images/susy.jpg" alt="susy" />
             </a>
             <a href="http://foundation.zurb.com/">
-              <img src="/images/foundation.png" alt="foundation" />
+              <img src="/layout/images/foundation.png" alt="foundation" />
             </a>
             <a href="http://imperavi.com/kube/">
-              <img src="/images/kube.png" alt="kube" />
+              <img src="/layout/images/kube.png" alt="kube" />
             </a>
             <a href="http://groundworkcss.github.com/">
-              <img src="/images/groundwork.gif" alt="groundwork" />
+              <img src="/layout/images/groundwork.gif" alt="groundwork" />
             </a>
             <a href="http://semantic-ui.com">
-              <img src="/images/semantic_ui.png" alt="semantic ui" />
+              <img src="/layout/images/semantic_ui.png" alt="semantic ui" />
             </a>
             <a href="http://purecss.io/">
-              <img src="/images/logo_pure.png" alt="Purecss" />
+              <img src="/layout/images/logo_pure.png" alt="Purecss" />
             </a>
           </div>
           <p className="content">
@@ -71,10 +71,10 @@ function Frameworks() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/flexbox">
+          <Link className="nav start" to="/layout/flexbox">
             Bài trước
           </Link>
-          <Link className="nav start" to="/about">
+          <Link className="nav start" to="/layout/about">
             Bài sau
           </Link>
         </div>

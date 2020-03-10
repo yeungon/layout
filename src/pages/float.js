@@ -62,10 +62,10 @@ function Float() {
         </div>
 
         <div className="nav-wrapper">
-          <Link className="nav start" to="/position-example">
+          <Link className="nav start" to="/layout/position-example">
             Bài trước
           </Link>
-          <Link className="nav start" to="/clear">
+          <Link className="nav start" to="/layout/clear">
             Bài sau
           </Link>
         </div>

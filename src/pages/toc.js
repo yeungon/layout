@@ -28,64 +28,64 @@ function TOC() {
               <li>
                 <ul>
                   <li>                    
-                    <Link to="/nolayout">no layout</Link>
+                    <Link to="/layout/nolayout">no layout</Link>
                   </li>
                   <li>                    
-                    <Link to="/display">the "display" property</Link>
+                    <Link to="/layout/display">the "display" property</Link>
                   </li>
                   <li>                    
-                    <Link to="/margin-auto">margin: auto;</Link>
+                    <Link to="/layout/margin-auto">margin: auto;</Link>
                   </li>
                   <li>                    
-                    <Link to="/max-width">max-width</Link>
+                    <Link to="/layout/max-width">max-width</Link>
                   </li>
                   <li>                    
-                    <Link to="/box-model">the box model</Link>
+                    <Link to="/layout/box-model">the box model</Link>
                   </li>
                   <li>                    
-                    <Link to="/box-sizing">box-sizing</Link>
+                    <Link to="/layout/box-sizing">box-sizing</Link>
                   </li>
                   <li>                    
-                    <Link to="/position">position</Link>
+                    <Link to="/layout/position">position</Link>
                   </li>
                   <li>                    
-                    <Link to="/position-example">position example</Link>
+                    <Link to="/layout/position-example">position example</Link>
                   </li>
                   <li>                    
-                    <Link to="/float">float</Link>
+                    <Link to="/layout/float">float</Link>
                   </li>
                   <li>                    
-                    <Link to="/clear">clear</Link>
+                    <Link to="/layout/clear">clear</Link>
                   </li>
                   <li>                    
-                    <Link to="/clearfix">the clearfix hack</Link>
+                    <Link to="/layout/clearfix">the clearfix hack</Link>
                   </li>
                   <li>                    
-                    <Link to="/float-layout">float layout example</Link>
+                    <Link to="/layout/float-layout">float layout example</Link>
                   </li>
                   <li>                    
-                    <Link to="/percent">percent width</Link>
+                    <Link to="/layout/percent">percent width</Link>
                   </li>
                   <li>                    
-                    <Link to="/media-queries">media queries</Link>
+                    <Link to="/layout/media-queries">media queries</Link>
                   </li>
                   <li>                    
-                    <Link to="/inline-block">inline-block</Link>
+                    <Link to="/layout/inline-block">inline-block</Link>
                   </li>
                   <li>                    
-                    <Link to="/inline-block-layout">inline-block layout</Link>
+                    <Link to="/layout/inline-block-layout">inline-block layout</Link>
                   </li>
                   <li>                    
-                    <Link to="/column">column</Link>
+                    <Link to="/layout/column">column</Link>
                   </li>
                   <li>                    
-                    <Link to="/flexbox">flexbox</Link>
+                    <Link to="/layout/flexbox">flexbox</Link>
                   </li>
                   <li>                    
-                    <Link to="/frameworks">css frameworks</Link>
+                    <Link to="/layout/frameworks">css frameworks</Link>
                   </li>
                   <li>                    
-                    <Link to="/about">about this site</Link>
+                    <Link to="/layout/about">about this site</Link>
                   </li>
                 </ul>
               </li>
