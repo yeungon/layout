@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import "../styles/style.css";
 import "../styles/code.css";
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 import Header from "./header";
 import Footer from "./footer";
 
@@ -13,27 +13,28 @@ function Index() {
         <title>Learn CSS Layout</title>
       </Helmet>
       <div>
-      <Header/>        
+        <Header />
         <div id="container">
           <div id="about">
             <p>
-              Trang web này sẽ dạy bạn sử dụng CSS cơ bản để dựng giao diện web.
+              Trang web này sẽ giúp bạn nắm được CSS cơ bản để dựng giao diện
+              web.
             </p>
             <p>
-              I assume you already know what selectors, properties, and values
-              are. And you probably know a thing or two about layout, though it
-              may still be a rage-provoking activity for you. If you want to
-              learn HTML and CSS from the beginning, you should check out{" "}
-              <a href="http://learn.shayhowe.com/html-css/">this tutorial</a>.
-              Otherwise, let's see if we can save you some fury on your next
-              project.
+              Dựng giao diện web cần kĩ năng, khi bạn phải phối hợp nhiều kiến
+              thức CSS khác nhau. Bạn cần nắm được các khái niệm CSS cơ bản
+              trước khi có thể dựng được layout. Nếu muốn học được cái khái niệm HTML và CSS cơ bản, bạn có thể tham khảo thêm tại trang 
+              <a href="http://learn.shayhowe.com/html-css/"> trang này</a>, hoặc <a href="https://w3schools.com">w3schools</a>. Okey, giờ ta sẽ cùng tìm hiểu cách dựng layout.
+              
             </p>
           </div>
-          <div className="nav-wrapper">            
-              <Link className="nav start" to="/nolayout">Bắt đầu học</Link>            
-          </div>          
+          <div className="nav-wrapper">
+            <Link className="nav start" to="/nolayout">
+              Bắt đầu học
+            </Link>
+          </div>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </main>
   );

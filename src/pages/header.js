@@ -15,8 +15,10 @@ function Header() {
       <div id="menu">        
         <Link className="home-link" to="/">          
           Home
+        </Link>        
+        <Link className="home-link" to="/toc">          
+        Table of Contents
         </Link>
-        <a href="toc.html">Table of Contents</a>
       </div>
     </>
   );

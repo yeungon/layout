@@ -7,14 +7,7 @@ function Footer() {
   return (
     <>
       <div id="share">
-        <li>
-          <a
-            href="https://twitter.com/share"
-            className="twitter-share-button"
-            data-url="http://learnlayout.com/"
-          >
-            Tweet
-          </a>
+        <li>          
         </li>
         <li>
           <div className="g-plusone" data-size="medium" />
