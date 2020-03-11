@@ -8,7 +8,8 @@ function Header() {
     <>
       <div id="logo">
         <Link className="home-link" to="/layout/">
-          <img src="/layout/images/logo.png" />
+          <img src= {"images/logo.png"}/>
+          
           <span>Học dựng giao diện với CSS</span>
         </Link>
       </div>
