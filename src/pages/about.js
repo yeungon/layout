@@ -36,7 +36,7 @@ function About() {
               />
             </a>
             <a href="http://bocoup.com">
-              <img src="/images/bob.png" alt="Bocoup" />
+              <img src={"bob.png"} alt="Bocoup" />
             </a>
             
           </div>
