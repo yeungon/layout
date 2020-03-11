@@ -7,9 +7,10 @@ function Header() {
   return (
     <>
       <div id="logo">
+
         <Link className="home-link" to="/layout/">
-          <img src= {"images/logo.png"}/>
-          
+          <img src= {"logo.png"}/>         
+
           <span>Học dựng giao diện với CSS</span>
         </Link>
       </div>

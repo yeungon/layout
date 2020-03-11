@@ -35,8 +35,10 @@ function About() {
                 alt="Isaac Durazo"
               />
             </a>
-            <a href="http://bocoup.com">
-              <img src="/layout/images/bob.png" alt="Bocoup" />
+            <a href="http://bocoup.com">          
+
+              <img src={"bob.png"} alt="Bocoup" />
+
             </a>
             
           </div>
