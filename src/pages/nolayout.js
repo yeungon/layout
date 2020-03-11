@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import "../styles/style.css";
 import "../styles/code.css";
@@ -15,26 +15,31 @@ function noLayout() {
       <div>
         <Header />
         <div id="container">
-          <h1 className="content">no layout</h1>
+          <h1 className="content">Khi không có layout</h1>
           <p>
-            Having no layout whatsover is almost ok if all you want is one big
-            column of content. However, if a user makes the browser window
-            really wide, it gets kind of annoying to read: after each line your
-            eyes have a long distance to travel right-to-left to the next line.
-            Try resizing your browser to see what I mean!
+            Nếu bạn muốn trang web của mình chỉ có một cột bự chảng, việc dựng
+            layout thực ra là... không cần thiết. Yeahh, nhưng thực tế không mấy
+            ai làm vậy, vì rất nhiều lí do. Nếu đang đọc dòng này, bạn sẽ thấy
+            khi màn hình rộng, việc đọc từng dòng dài lòng thòng thế này khá là
+            củ chuối. Okey, giờ nếu bạn co màn hình lại bằng cách ấn vào cửa sổ
+            đúp trên trình duyệt, bên cạnh nút đóng x, bạn sẽ thấy dựng layout
+            web quan trọng như thế nào, khi nó giúp người dùng đọc nội dung dễ
+            dàng hơn.
           </p>
           <p>
-            Before we fix this problem, let's make sure we're clear on the very
-            important <code>display</code> property.
+            Trước khi chúng ta xử lý việc này, hãy bắt đầu với thuộc tính cực kì
+            quan trọng của CSS: <code>display</code>. Nắm được cách dùng display
+            sẽ giúp chúng ta xử lý giao diện theo nhiều hướng khác nhau như
+            flex, grid. Ở bài kế tiếp, chúng ta sẽ vọc anh chàng display này.
           </p>
           <div className="nav-wrapper">
-            <Link className="nav start" to="/">
+            <Link className="nav start" to="/layout">
               Bài trước
             </Link>
-            <Link className="nav start" to="/display">
+            <Link className="nav start" to="/layout/display">
               Bài sau
             </Link>
-          </div>          
+          </div>
           <footer>1 / 19</footer>
         </div>
         <Footer />

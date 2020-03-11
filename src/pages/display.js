@@ -15,86 +15,96 @@ function Display() {
       <div>
         <Header />
         <div id="container">
-          <h1 className="content">the "display" property</h1>
+          <h1 className="content">thuộc tính "display"</h1>
           <p className="content">
-            <code>display</code> is CSS's most important property for
-            controlling layout. Every element has a default display value
-            depending on what type of element it is. The default for most
-            elements is usually <code>block</code> or <code>inline</code>. A
-            block element is often called a block-level element. An inline
-            element is always just called an inline element.
+            <code>display</code> là một trong số những thuộc tính quan trọng bực
+            nhất của CSS'để kiểm soát giao diện (layout). Bất kì phần tử nào
+            trên web cũng có một giá trị display mặc dịnh, tùy thuộc vào loại
+            phần tử. Hầu hết các phần tử HTML trên web có thuộc tính display là{" "}
+            <code>block</code> hoặc <code>inline</code>. Một phần tử dạng block
+            (khối) thường được gọi là phần tử khối. Một phần tử cùng dòng
+            (inline) thì đươc gọi là phần tử cùng dòng (inline element), tất
+            nhiên rồi :-)
           </p>
           <h2 className="content">block</h2>
           <div className="elem">
             <span className="label">&lt;div&gt;</span>
             <p>
-              <code>div</code> is the standard block-level element. A
-              block-level element starts on a new line and stretches out to the
-              left and right as far as it can. Other common block-level elements
-              are <code>p</code> and <code>form</code>, and new in HTML5 are{" "}
-              <code>header</code>, <code>footer</code>, <code>section</code>,
-              and more.
+              <code>div</code> là phần tử dạng khối tiêu chuẩn. Cứ khai báo một{" "}
+              <code>div</code> là anh em coder lại có một khối không gian HTML
+              dạng block. Một phần tử khối sẽ bắt đầu từ dòng đầu tiên bên trái
+              và kéo dài không gian đến hết bên phải, theo những thuộc tính mà
+              nó được quy định theo. Nói một cách đơn giản, khi có hai phần tử
+              khối, chúng sẽ luôn luôn xếp chồng lên nhau như hai viên gạch. Một
+              số phần tử khối khác gồm có thẻ <code>p</code>, <code>form</code>,
+              một số thẻ mới trong HTML5 như <code>header</code>,{" "}
+              <code>footer</code>, <code>section</code> vân vân mây mây... Những
+              thẻ trên là quan trọng nhứt rồi.
             </p>
             <span className="endlabel">&lt;/div&gt;</span>
           </div>
           <div className="content">
             <h2>inline</h2>
             <p>
-              <code>span</code> is the standard inline element. An inline
-              element can wrap some text inside a paragraph
+              <code>span</code> là phần tử cùng dòng tiêu chuẩn. Một phần tử
+              cùng dòng có thể "gói" text trong một đoạn văn{" "}
               <span className="elem elem-inline">
-                <span className="label">&lt;span&gt;</span>
-                like this
+                <span className="label">&lt;span&gt;</span> như này
                 <span className="endlabel">&lt;/span&gt;</span>
-              </span>
-              without disrupting the flow of that paragraph. The <code>a</code>{" "}
-              element is the most common inline element, since you use them for
-              links.
+              </span>{" "}
+              mà không ảnh hưởng tới đặc tính về vị trí của đọan văn đó. Thẻ{" "}
+              <code>a</code> là một trong số những thẻ cùng dòng thường dùng
+              nhất, khi bạn sẽ dẫn link với thẻ này. Nói một cách nôm na thì các
+              phần tử (thẻ) nào mặc định là inline, khi xếp bên nhau, thay vì
+              như hai viên gạch chồng lên nhau, chúng giống như hai toa tầu của
+              một đoàn tầu ghép vào nhau.
             </p>
             <h2>none</h2>
             <p>
-              Another common display value is <code>none</code>. Some
-              specialized elements such as <code>script</code> use this as their
-              default. It is commonly used with JavaScript to hide and show
-              elements without really deleting and recreating them.
+              Chú ý rằng display còn có thể thiết lập là <code>none</code>. Một
+              số phần tử đặc biệt như <code>script</code> có giá trị mặc định
+              này. Trên thực tế, người ta hay dùng JavaScript để ẩn hoặc hiện
+              một đối tượng nào đó, bằng việc thay đổi giá trị của display, thay
+              vì thực sự xóa hoặc tạo lại một phần tử HTML nào đấy.
             </p>
             <p>
-              This is different from <code>visibility</code>. Setting{" "}
-              <code>display</code> to <code>none</code> will render the page as
-              though the element does not exist.{" "}
-              <code>visibility: hidden;</code> will hide the element, but the
-              element will still take up the space it would if it was fully
-              visible.
+              Chú ý nữa là thuộc tính display khác với thuộc tính{" "}
+              <code>visibility</code>. Thiết lập <code>display</code> thành{" "}
+              <code>none</code> sẽ render trang web theo kiểu element HTML không
+              tồn tại. Trong khi đó, khi thiết lập{" "}
+              <code>visibility: hidden;</code>, phần tử HTML đó sẽ bị ẩn, nhưng
+              nó vẫn chiếm không gian của trang, như lúc nó hiển thị vậy.
             </p>
             <div style={{ display: "none" }}>You found me!</div>
-            <h2>other display values</h2>
+            <h2>Các giá trị khác của thuộc tính display</h2>
             <p>
-              There are plenty of more exotic display values, such as{" "}
-              <code>list-item</code> and <code>table</code>.{" "}
+              Có khá nhiều các giá trị khác cho thuộc tính <code>display </code>
+              , chẳng hạn như: <code>list-item</code> và <code>table</code>.{" "}
               <a href="https://developer.mozilla.org/en-US/docs/CSS/display">
-                Here is an exhaustive list
+                Xem thêm tại đây
               </a>
-              . We'll discuss <code>inline-block</code> and <code>flex</code>{" "}
-              later on.
+              . Chúng ta sẽ thảo luận về <code>inline-block</code> và{" "}
+              <code>flex</code> sau này. Hiện nay, xu thế mới nhất là dùng{" "}
+              <code>grid</code>.
             </p>
-            <h2>extra credit</h2>
+            <h2>thêm tí hành tỏi: </h2>
             <p>
-              As I mentioned, every element has a default display type. However,
-              you can <em>always</em> override this! Though it wouldn't make
-              sense to make an inline div, you can use this to customize the
-              display of elements that have particular semantics. A common
-              example is making inline <code>li</code> elements for horizontal
-              menus.
+              Chú ý rằng tất cả các thẻ đều có giá trị display mặc định, nhưng
+              chúng ta <em>luôn luôn</em> ghi đè được. Tất nhiên, sẽ khá là dzô
+              dziên nếu ép kiểu của div sang dạng inline, nhuwg trong những tình
+              huống cụ thể, chúng ta có thể linh hoạt thiết lập. Mộ tình huống
+              khá quen thuộc là chúng ta thiết lập thẻ <code>li</code> thành
+              dạng inline cho các elements của menu dạng thẳng đứng.
             </p>
           </div>
           <div className="nav-wrapper">
-            <Link className="nav start" to="/nolayout">
+            <Link className="nav start" to="/layout/nolayout">
               Bài trước
             </Link>
-            <Link className="nav start" to="/margin-auto">
+            <Link className="nav start" to="/layout/margin-auto">
               Bài sau
             </Link>
-          </div>   
+          </div>
           <footer>2 / 19</footer>
         </div>
 
