@@ -33,10 +33,10 @@ function noLayout() {
             flex, grid. Ở bài kế tiếp, chúng ta sẽ vọc anh chàng display này.
           </p>
           <div className="nav-wrapper">
-            <Link className="nav start" to="/layout">
+            <Link className="nav start" to="/">
               Bài trước
             </Link>
-            <Link className="nav start" to="/layout/display">
+            <Link className="nav start" to="/display">
               Bài sau
             </Link>
           </div>

@@ -98,10 +98,10 @@ function Display() {
             </p>
           </div>
           <div className="nav-wrapper">
-            <Link className="nav start" to="/layout/nolayout">
+            <Link className="nav start" to="/nolayout">
               Bài trước
             </Link>
-            <Link className="nav start" to="/layout/margin-auto">
+            <Link className="nav start" to="/margin-auto">
               Bài sau
             </Link>
           </div>
