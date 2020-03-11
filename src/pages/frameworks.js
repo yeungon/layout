@@ -31,34 +31,34 @@ function Frameworks() {
           />
           <div id="logos">
             <a href="http://www.blueprintcss.org/">
-              <img src="/images/blueprint.jpg" alt="blueprint" />
+              <img src="/blueprint.jpg" alt="blueprint" />
             </a>
             <a href="http://www.unsemantic.com">
-              <img src="/images/unsemantic.png" alt="unsemantic" />
+              <img src="/unsemantic.png" alt="unsemantic" />
             </a>
             <a href="http://bluetrip.org/">
-              <img src="/images/bluetrip.jpg" alt="bluetrip" />
+              <img src="/bluetrip.jpg" alt="bluetrip" />
             </a>
             <a href="http://twitter.github.com/bootstrap/">
-              <img src="/images/bootstrap.jpg" alt="bootstrap" />
+              <img src="/bootstrap.jpg" alt="bootstrap" />
             </a>
             <a href="http://susy.oddbird.net/">
-              <img src="/images/susy.jpg" alt="susy" />
+              <img src="/susy.jpg" alt="susy" />
             </a>
             <a href="http://foundation.zurb.com/">
-              <img src="/images/foundation.png" alt="foundation" />
+              <img src="/foundation.png" alt="foundation" />
             </a>
             <a href="http://imperavi.com/kube/">
-              <img src="/images/kube.png" alt="kube" />
+              <img src="/kube.png" alt="kube" />
             </a>
             <a href="http://groundworkcss.github.com/">
-              <img src="/images/groundwork.gif" alt="groundwork" />
+              <img src="/groundwork.gif" alt="groundwork" />
             </a>
             <a href="http://semantic-ui.com">
-              <img src="/images/semantic_ui.png" alt="semantic ui" />
+              <img src="/semantic_ui.png" alt="semantic ui" />
             </a>
             <a href="http://purecss.io/">
-              <img src="/images/logo_pure.png" alt="Purecss" />
+              <img src="/logo_pure.png" alt="Purecss" />
             </a>
           </div>
           <p className="content">
