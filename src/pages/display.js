@@ -91,8 +91,8 @@ function Display() {
             <p>
               Chú ý rằng tất cả các thẻ đều có giá trị display mặc định, nhưng
               chúng ta <em>luôn luôn</em> ghi đè được. Tất nhiên, sẽ khá là dzô
-              dziên nếu ép kiểu của div sang dạng inline, nhuwg trong những tình
-              huống cụ thể, chúng ta có thể linh hoạt thiết lập. Mộ tình huống
+              dziên nếu ép kiểu của div sang dạng inline, nhưng trong những tình
+              huống cụ thể, chúng ta có thể linh hoạt thiết lập. Một tình huống
               khá quen thuộc là chúng ta thiết lập thẻ <code>li</code> thành
               dạng inline cho các elements của menu dạng thẳng đứng.
             </p>
@@ -101,11 +101,11 @@ function Display() {
             <Link className="nav start" to="/nolayout">
               Bài trước
             </Link>
-            <Link className="nav start" to="/margin-auto">
+            <Link className="nav start" to="/height">
               Bài sau
             </Link>
           </div>
-          <footer>2 / 19</footer>
+          <footer>2 / 20</footer>
         </div>
 
         <Footer />

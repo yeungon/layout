@@ -173,7 +173,7 @@ function BoxSizing() {
             Bài sau
           </Link>
         </div>
-        <footer>6 / 19</footer>
+        <footer>7 / 20</footer>
         <Footer />
       </div>
     </main>

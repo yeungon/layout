@@ -45,7 +45,7 @@ function Margin() {
           <div id="main" className="elem">
             <span className="label">&lt;div id="main"&gt;</span>
             <p>
-              Setting the <code>width</code> of a block-level element will
+              Thiết lập thông số <code>width</code> cho một đối tượng (element) có thuộc tính display là block sẽ ngăn of a block-level element will
               prevent it from stretching out to the edges of its container to
               the left and right. Then, you can set the left and right margins
               to <code>auto</code> to horizontally center that element within
@@ -69,7 +69,7 @@ function Margin() {
             Bài sau
           </Link>
         </div>
-        <footer>3 / 19</footer>
+        <footer>4 / 20</footer>
 
         <Footer />
       </div>

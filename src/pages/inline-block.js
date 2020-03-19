@@ -154,7 +154,7 @@ function InlineBlock() {
             Bài sau
           </Link>
         </div>
-        <footer>15 / 19</footer>
+        <footer>16 / 20</footer>
         <Footer />
       </div>
     </main>

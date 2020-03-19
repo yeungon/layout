@@ -104,7 +104,7 @@ function BoxModel() {
             Bài sau
           </Link>
         </div>
-        <footer>5 / 19</footer>
+        <footer>6 / 20</footer>
         <Footer />
       </div>
     </main>

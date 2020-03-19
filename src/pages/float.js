@@ -69,7 +69,7 @@ function Float() {
             Bài sau
           </Link>
         </div>
-        <footer>9 / 19</footer>
+        <footer>10 / 20</footer>
         <Footer />
       </div>
     </main>

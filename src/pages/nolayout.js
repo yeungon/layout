@@ -40,7 +40,7 @@ function noLayout() {
               Bài sau
             </Link>
           </div>
-          <footer>1 / 19</footer>
+          <footer>1 / 20</footer>
         </div>
         <Footer />
       </div>

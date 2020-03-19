@@ -150,7 +150,7 @@ function InlineBlockLayout() {
             Bài sau
           </Link>
         </div>
-        <footer>16 / 19</footer>
+        <footer>17 / 20</footer>
         <Footer />
       </div>
     </main>

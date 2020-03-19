@@ -106,7 +106,7 @@ function Column() {
             Bài sau
           </Link>
         </div>
-        <footer>17 / 19</footer>
+        <footer>18 / 20</footer>
         <Footer />
       </div>
     </main>

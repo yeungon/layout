@@ -78,7 +78,7 @@ function Frameworks() {
             Bài sau
           </Link>
         </div>
-        <footer>19 / 19</footer>
+        <footer>20 / 20</footer>
         <Footer />
       </div>
     </main>

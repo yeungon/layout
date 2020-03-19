@@ -206,7 +206,7 @@ function PositionExample() {
             Bài sau
           </Link>
         </div>
-        <footer>8 / 19</footer>
+        <footer>9 / 20</footer>
         <Footer />
       </div>
     </main>

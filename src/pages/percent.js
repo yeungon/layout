@@ -161,7 +161,7 @@ function Percent() {
             Bài sau
           </Link>
         </div>
-        <footer>13 / 19</footer>
+        <footer>14 / 20</footer>
         <Footer />
       </div>
     </main>

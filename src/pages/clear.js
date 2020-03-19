@@ -153,7 +153,7 @@ function Clear() {
             Bài sau
           </Link>
         </div>
-        <footer>10 / 19</footer>
+        <footer>11 / 20</footer>
         <Footer />
       </div>
     </main>

@@ -337,7 +337,7 @@ function FlexBox() {
             Bài sau
           </Link>
         </div>
-        <footer>18 / 19</footer>
+        <footer>19 / 20</footer>
         <Footer />
       </div>
     </main>

@@ -173,7 +173,7 @@ function MediaQueries() {
             Bài sau
           </Link>
         </div>
-        <footer>14 / 19</footer>
+        <footer>15 / 20</footer>
         <Footer />
       </div>
     </main>

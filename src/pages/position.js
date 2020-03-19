@@ -279,7 +279,7 @@ function Position() {
             Bài sau
           </Link>
         </div>
-        <footer>7 / 19</footer>
+        <footer>8 / 20</footer>
         <Footer />
       </div>
     </main>

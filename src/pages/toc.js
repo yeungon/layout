@@ -34,6 +34,9 @@ function TOC() {
                     <Link to="/display">the "display" property</Link>
                   </li>
                   <li>                    
+                    <Link to="/height">height: 100vh và hàm cacl()</Link>
+                  </li>
+                  <li>                    
                     <Link to="/margin-auto">margin: auto;</Link>
                   </li>
                   <li>                    
@@ -86,6 +89,9 @@ function TOC() {
                   </li>
                   <li>                    
                     <Link to="/about">about this site</Link>
+                  </li>
+                  <li>                    
+                    <Link to="/about">future content</Link>
                   </li>
                 </ul>
               </li>

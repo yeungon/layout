@@ -119,7 +119,7 @@ function FloatLayout() {
             Bài sau
           </Link>
         </div>
-        <footer>12 / 19</footer>
+        <footer>13 / 20</footer>
         <Footer />
       </div>
     </main>

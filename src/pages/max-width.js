@@ -66,7 +66,7 @@ function MaxWith() {
             Bài sau
           </Link>
         </div>
-        <footer>4 / 19</footer>
+        <footer>5 / 19</footer>
         <Footer />
       </div>
     </main>
