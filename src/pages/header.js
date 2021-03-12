@@ -9,15 +9,15 @@ function Header() {
       <div id="logo">
         <Link className="home-link" to="/">
           <img src={"/logo.png"}/>
-          <span>Học dựng giao diện với CSS</span>
+          <h2 className = "font-futura">Học dựng giao diện với CSS</h2>
         </Link>
       </div>
       <div id="menu">        
         <Link className="home-link" to="/">          
-          Home
+          Trang chính
         </Link>        
         <Link className="home-link" to="/toc">          
-        Table of Contents
+        Mục lục
         </Link>
       </div>
     </>

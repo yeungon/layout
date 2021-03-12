@@ -23,7 +23,7 @@ function TOC() {
             }}
           />
           <div className="content">
-            <h1 className="content">Table of Contents</h1>
+            <h1 className="content">Mục lục</h1>
             <ul id="toc">
               <li>
                 <ul>

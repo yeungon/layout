@@ -4,9 +4,19 @@ body {
     font-size: 1em;
     line-height: 1.5em;
     color: #414142;
-    font-family: Arial;
+    font-family: futura;
+    font-size: 110%;
     background-color: #ededed;
   }
+
+  @font-face {
+  font-family: futura;
+  src: url("../fonts/SVN-Futura_Regular.otf") format("opentype");
+}
+
+.font-futura {
+  font-family: futura;
+}
   
   body.rtl {
     direction: rtl;
@@ -40,7 +50,7 @@ body {
   }
   
   h1, h2 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'futura', serif;
     font-weight: normal;
   }
   
@@ -48,10 +58,11 @@ body {
     margin: 1.5em 0;
     font-weight: normal;
     text-align: center;
+    font-family: futura;
   }
   
   h2 {
-    font-family: 'Bree Serif', serif;
+    font-family: 'futura', serif;
     margin: 1.2em 0;
     font-weight: normal;
   }
