@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 import Header from "./header";
 import Footer from "./footer";
 
-function MaxWith() {
+function MaxMaxWidthMinWidth() {
   return (
     <main>
       <Helmet>
@@ -15,10 +15,11 @@ function MaxWith() {
       <div>
         <Header />
         <div id="container">
-          <h1 className="content">max-width</h1>
+          <h1 className="content">width vs max-width vs min-width</h1>
           <style
             dangerouslySetInnerHTML={{
-              __html: "\n#main {\nmax-width: 600px;\nmargin: 0 auto;\n}\n"
+              __html:
+                "\n  #main {\n    width: 600px;\n    margin: 0 auto;\n  }\n"
             }}
           />
           <figure className="highlight">
@@ -27,10 +28,12 @@ function MaxWith() {
                 <span className="nf">#main</span>{" "}
                 <span className="p">{"{"}</span>
                 {"\n"}
-                <span className="nl">max-width</span>
+                {"  "}
+                <span className="nl">width</span>
                 <span className="p">:</span> <span className="m">600px</span>
                 <span className="p">;</span>
                 {"\n"}
+                {"  "}
                 <span className="nl">margin</span>
                 <span className="p">:</span> <span className="m">0</span>{" "}
                 <span className="nb">auto</span>
@@ -42,32 +45,36 @@ function MaxWith() {
           <div id="main" className="elem">
             <span className="label">&lt;div id="main"&gt;</span>
             <p>
-              Sử dụng <code>max-width</code> thay vì <code>width</code> trong tình huống này sẽ cải thiện khả năng xử lý của trình duyệt trên các màn hình kích thước nhỏ, rất hiệu quả trong việc thiết kế giao diện responsive. Bạn thử co màn hình chính trang này để thấy tác dụng của nó.
+              Thiết lập thông số <code>width</code> cho một đối tượng (element) có thuộc tính display là block sẽ ngăn of a block-level element will
+              prevent it from stretching out to the edges of its container to
+              the left and right. Then, you can set the left and right margins
+              to <code>auto</code> to horizontally center that element within
+              its container. The element will take up the width you specify,
+              then the remaining space will be split evenly between the two
+              margins.
             </p>
             <p>
-              Lưu ý rằng, <code>max-width</code> is{" "}
-              <a href="http://caniuse.com/#search=max-width">
-                được tất cả các trình duyệt hiện đại hỗ trợ,
-              </a>{" "}
-              bao gồm cả IE7+, do đó, bạn không cần phải lo lắng chuyện bất tương thích.
+              The only problem occurs when the browser window is narrower than
+              the width of your element. The browser resolves this by creating a
+              horizontal scrollbar on the page. Let's improve the situation...
             </p>
             <span className="endlabel">&lt;/div&gt;</span>
           </div>
         </div>
-
         <div className="nav-wrapper">
-          <Link className="nav start" to="/margin-auto">
+          <Link className="nav start" to="/display">
             Bài trước
           </Link>
-          <Link className="nav start" to="/box-model">
+          <Link className="nav start" to="/max-width">
             Bài sau
           </Link>
         </div>
-        <footer>5 / 19</footer>
+        <footer>4 / 20</footer>
+
         <Footer />
       </div>
     </main>
   );
 }
 
-export default MaxWith;
+export default MaxMaxWidthMinWidth;

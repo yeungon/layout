@@ -9,7 +9,7 @@ function Header() {
       <div id="logo">
         <Link className="home-link" to="/">
           <img src={"/logo.png"}/>
-          <h2 className = "font-futura">Học dựng giao diện với CSS</h2>
+          <h1 style = {{display: "inline", fontWeight: "900", color: "#1a6a62"}}className = "font-futura"> DỰNG GIAO DIỆN VỚI CSS </h1>
         </Link>
       </div>
       <div id="menu">        

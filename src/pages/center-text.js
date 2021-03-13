@@ -6,21 +6,25 @@ import { Link } from "gatsby";
 import Header from "./header";
 import Footer from "./footer";
 
-function MaxWith() {
+function CenterText() {
   return (
     <main>
       <Helmet>
-        <title>Learn CSS Layout</title>
+        <title>Center Text </title>
       </Helmet>
       <div>
         <Header />
         <div id="container">
-          <h1 className="content">max-width</h1>
+          <h1 className="content">Đặt text ở giữa ngang và dọc</h1>
           <style
             dangerouslySetInnerHTML={{
               __html: "\n#main {\nmax-width: 600px;\nmargin: 0 auto;\n}\n"
             }}
           />
+          <p className="content">
+             Canh lề giữa là một kĩ thuật không quá phức tạp. Hiện có nhiều cách để bạn đạt được điều mình mong muốn. Chúng ta sẽ cùng review những phương pháp giúp đặt text vào giữa văn bản hoặc vào giữa một element khác.               
+            </p>
+
           <figure className="highlight">
             <pre>
               <code className="language-css" data-lang="css">
@@ -42,14 +46,19 @@ function MaxWith() {
           <div id="main" className="elem">
             <span className="label">&lt;div id="main"&gt;</span>
             <p>
-              Sử dụng <code>max-width</code> thay vì <code>width</code> trong tình huống này sẽ cải thiện khả năng xử lý của trình duyệt trên các màn hình kích thước nhỏ, rất hiệu quả trong việc thiết kế giao diện responsive. Bạn thử co màn hình chính trang này để thấy tác dụng của nó.
+              Using <code>max-width</code> instead of <code>width</code> in this
+              situation will improve the browser's handling of small windows.
+              This is important when making a site usable on mobile. Resize this
+              page to check it out!
+
+              https://dev.to/palashmon/center-text-vertically-and-horizontally-in-css-42b1?fbclid=IwAR0A7p33n74ZnvKnbSuIeDtv-5ltj9KORPO-Wm1I_TiXyoKfEnKT6-jJrnA
             </p>
             <p>
-              Lưu ý rằng, <code>max-width</code> is{" "}
+              By the way, <code>max-width</code> is{" "}
               <a href="http://caniuse.com/#search=max-width">
-                được tất cả các trình duyệt hiện đại hỗ trợ,
+                supported by all major browsers
               </a>{" "}
-              bao gồm cả IE7+, do đó, bạn không cần phải lo lắng chuyện bất tương thích.
+              including IE7+ so you shouldn't be afraid of using it.
             </p>
             <span className="endlabel">&lt;/div&gt;</span>
           </div>
@@ -70,4 +79,4 @@ function MaxWith() {
   );
 }
 
-export default MaxWith;
+export default CenterText;

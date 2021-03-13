@@ -1,22 +1,44 @@
 body {
     margin: 0;
-    padding: 0 0 1em 0;
-    font-size: 1em;
-    line-height: 1.5em;
+    padding: 0 0 1em 0;    
+    line-height: 1.6em;
     color: #414142;
-    font-family: futura;
-    font-size: 110%;
-    background-color: #ededed;
+    font-family: biosans, futura;
+    font-size: 115%;
+    /*background-color: #ededed;*/
   }
 
-  @font-face {
+@font-face {
   font-family: futura;
   src: url("../fonts/SVN-Futura_Regular.otf") format("opentype");
 }
 
+
 .font-futura {
   font-family: futura;
 }
+
+@font-face {
+  font-family: biosans;
+  src: url("../fonts/SVN-Bio_Sans_Regular.ttf") format("truetype");
+}
+
+.font-biosans {
+  font-family: biosans;
+}
+
+
+@font-face {
+  font-family: valley;
+  src: url("../fonts/Vallely.ttf") format("truetype");
+}
+
+.font-valley {
+  font-family: valley;
+}
+
+
+
   
   body.rtl {
     direction: rtl;
@@ -108,7 +130,7 @@ body {
   
   #logo {
     text-align: center;
-    background-color: #ededed;
+    /*background-color: #ededed;*/
     padding: 1em 0;
   }
   
@@ -129,7 +151,7 @@ body {
   #logo span {
     vertical-align: middle;
     font-size: 2em;
-    font-family: 'Bree Serif', serif;
+    font-family: 'futura', serif;
     margin-left: .2em;
   }
   

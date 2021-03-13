@@ -17,7 +17,7 @@ function Index() {
         <div id="container">
           <div id="about">
             <p>
-              Trang web này sẽ giúp bạn nắm được CSS cơ bản để dựng giao diện
+              Trang web này sẽ giúp bạn nắm được các kĩ thuật CSS từ cơ bản đến chuyên sâu để dựng giao diện
               web.
             </p>
             <p>
@@ -27,8 +27,8 @@ function Index() {
               <a href="http://learn.shayhowe.com/html-css/"> trang này</a>, hoặc <a href="https://w3schools.com">w3schools</a>. Okey, giờ ta sẽ cùng tìm hiểu cách dựng layout.              
             </p>
             <p>
-            Original content <a href="http://learnlayout.com/"> Learn Layout.</a> <br/><br/>
-            Convert to Gatsby and translate to Vietnamese by <a href="https://vuongnguyen.net"> Vuong Nguyen </a>.
+            Trang web gốc tại <a href="http://learnlayout.com/"> Learn Layout.</a> <br/><br/>
+            Chuyển sang Gatsby, dịch Việt ngữ và bổ sung content mới by <a href="https://vuongnguyen.net"> Vuong Nguyen</a>.
               
             </p>
 

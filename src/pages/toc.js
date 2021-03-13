@@ -43,6 +43,9 @@ function TOC() {
                     <Link to="/max-width">max-width</Link>
                   </li>
                   <li>                    
+                    <Link to="/width-maxwidth-minwidth">width max-width min-width</Link>
+                  </li>
+                  <li>                    
                     <Link to="/box-model">the box model</Link>
                   </li>
                   <li>                    
@@ -83,15 +86,18 @@ function TOC() {
                   </li>
                   <li>                    
                     <Link to="/flexbox">flexbox</Link>
-                  </li>
+                  </li>                  
+                  <li>                    
+                    <Link to="/center-text">center text</Link>
+                  </li>                  
                   <li>                    
                     <Link to="/frameworks">css frameworks</Link>
                   </li>
                   <li>                    
-                    <Link to="/about">about this site</Link>
+                    <Link to="/about">future content</Link>
                   </li>
                   <li>                    
-                    <Link to="/about">future content</Link>
+                    <Link to="/about">blank content</Link>
                   </li>
                 </ul>
               </li>
